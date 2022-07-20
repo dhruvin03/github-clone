@@ -1,0 +1,5 @@
+<select class="form-select" id="type" placeholder="Select Type" (change)="onSelectedValue($event)">
+    <option selected disabled value="">Select {{ filterType }}</option>
+    <option value="all">All</option>
+    <option *ngFor="let type of types" [value]="type">{{ type | titlecase }}</option>
+</select>

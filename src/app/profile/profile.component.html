@@ -1,0 +1,6 @@
+<img class="profile_pic" [src]="profile.avatar_url" alt="Profile Pic"/>
+<h1>{{ profile.name }}</h1>
+<h6>{{ profile.login }}</h6>
+<p>{{ profile.bio }}</p>
+<p><span>Following: {{ profile.following | shortNumber }}</span> | <span>Followers: {{ profile.followers | shortNumber
+        }}</span></p>
