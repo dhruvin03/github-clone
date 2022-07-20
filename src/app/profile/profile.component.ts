@@ -31,7 +31,10 @@ export class ProfileComponent implements OnInit {
       this.profile = data;
       this.github.setUsername = this.profile.login;
       console.log('User Profile: ', this.profile);
-    }, err => console.log('Fetching user profile data failed.', err));
+    }, err => {
+      alert('Error while fetching data. Kinldy refresh the page.');
+      console.log('Fetching user profile data failed.', err)}
+      );
   }
 
 }

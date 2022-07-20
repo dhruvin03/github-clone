@@ -55,7 +55,10 @@ export class RepositoryComponent implements OnInit {
       console.log(this.username);
       console.log('Languages: ', this.uniqueLanguage);
       console.log('User Repos Fetched: ', this.repositories);
-    }, err => console.log('Fetching user repo data failed.', err))
+    }, err => {
+      alert('Error while fetching data. Kinldy refresh the page.');
+      console.log('Fetching user repo data failed.', err)
+    })
   }
 
   //Logic for filtering the repository list as per input provided name, repository type and language.

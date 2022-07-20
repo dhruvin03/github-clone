@@ -1,27 +1,45 @@
-# BiztechPracticalTest
+# Biztech Practical Test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
+This is a solution to the Biztech Practical Test where i have to fetch user details and user repositories using Github API and filtering repositories. 
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Coding Standards](#coding-standards)
 
-## Code scaffolding
+# Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## The Challenge
 
-## Build
+The task is to display the repositories and allow the user to filter through the repositories. Use
+the official GitHub API to fetch and display repositories per user.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Github API Docs: https://docs.github.com/en/rest
 
-## Running unit tests
+# My process
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Built With
 
-## Running end-to-end tests
+- This project is built on Angular 11.
+- I have used basic bootstrap css (CDN Link) to make web page responsive and look good.
+- Also used Github API to access user detail information and fetch user repositories.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Coding Standards
 
-## Further help
+- Local variables uses camel case lettering whereas constant variable are formed using capital letters only and model variables are created using an underscore symbol between words.
+- Used standard proper indentation guidelines.
+- Have given necessary comments in the code.
+- Used exception handling to show appropriate message if data is not fetched from an API.
+- Have divided the component into small chunks which gives us leverage to reuse the component.
+- Component of the app are named in such a way that you can easily recognise for what and which purpose the component is used for.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+
+
+
+
