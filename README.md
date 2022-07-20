@@ -21,6 +21,13 @@ Github API Docs: https://docs.github.com/en/rest
 
 # My process
 
+- Firstly I built up the necessary services or dependency injection to fetch data from an API.
+- Next displayed necessary data on to the screen.
+- Created model with help of that data and mapped data to only store those necessary values.
+- Injected services to necessary component for fetching and filtering data.
+- Built logic for filtering data using search bar, type and language dropdown buttons.
+- Divided components into small chuncks.
+
 ## Built With
 
 - This project is built on Angular 11.
